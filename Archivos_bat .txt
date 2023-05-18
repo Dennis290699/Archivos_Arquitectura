@@ -1,0 +1,40 @@
+cd + nombre de la carpeta donde quieres ir
+dir -----> para ver los nombres de las carpetas donde te encuentras 
+mkdir + nombre del nuevo directorio(carpeta) a crear
+copy con + el nombre del nuevo archivo a crear con la extension y luego pegas o escribes todo lo que ira dentro 
+ctrl+z ---> Salir del modo edicion para finalizar
+echo echo + la intruccion nueva a colocar >> nombre del archivo a modificar
+para ejecutar tienes que ir al directorio donde esta el archivo a ejecutar
+start + nombre de la aplicacion ------> Inicia una aplicacion
+echo echo +Nuevo comando >> nombre del archivo a editar
+
+
+____________________________________________________________________________________________________________
+EJEMPLO
+
+cd Desktop
+----------------------------Enter-----------------------------
+mkdir Dennis_290699
+----------------------------Enter-----------------------------
+cd Dennis_290699
+----------------------------Enter-----------------------------
+copy con nuevo_archivo.bat
+----------------------------Enter-----------------------------
+@echo off
+
+echo Ejecutando System Info...
+systeminfo > con
+
+echo Ejecutando ipconfig...
+ipconfig >> con
+
+echo Ejecutando Excel...
+start excel
+
+echo Ejecutando Word...
+start winword
+@pause
+----------------------------Enter-----------------------------
+nuevo_archivo.bat
+----------------------------Enter-----------------------------
+echo echo Hola Mundo >> nuevo_archivo.bat

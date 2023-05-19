@@ -10,7 +10,7 @@
 
 ## Explicacion de los archivos
 <ul>
-    <li><a href="Archivos_bat .txt">Archivos.bat</a></li>
+    <li><a href="Archivos_bat">Archivos.bat</a></li>
 </ul>
 
 
@@ -19,7 +19,7 @@
 </div>
 
 <ul>
-  <li>Realizadas correcciones de código en <a href="./Archivos_bat">Archivos_bat</a> para mejorar la estabilidad y el rendimiento.</li>
+  <li>Realizadas correcciones de código en <a href="./Archivos_bat .txt">Archivos_bat</a> para mejorar la estabilidad y el rendimiento.</li>
   <li>Agregado archivo Readme.md con instrucciones y documentación detallada.</li>
 </ul>
 

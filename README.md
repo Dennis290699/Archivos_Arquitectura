@@ -5,12 +5,12 @@
 
 ## Novedades de actualización
 <ul>
-    <li><a href="Actualizacion_1">Actualizacion 1.0</a></li>
+    <li><a href="./Actualizacion_1">Actualizacion 1.0</a></li>
 </ul>
 
 ## Explicacion de los archivos
 <ul>
-    <li><a href="Archivos_bat">Archivos.bat</a></li>
+    <li><a href="./Archivos_bat">Archivos_bat</a></li>
 </ul>
 
 

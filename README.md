@@ -46,7 +46,8 @@ El fragmento de código que proporcionaste realiza una serie de acciones en un e
    - `start winword`: Abre Microsoft Word en una nueva ventana.
    - `@pause`: Pausa la ejecución del archivo hasta que se presione una tecla.
 6. `nuevo_archivo.bat`: Ejecuta el archivo "nuevo_archivo.bat" recién creado.
-7. `echo echo Hola Mundo >> nuevo_archivo.bat`: Agrega el comando "echo Hola Mundo" al final del archivo "nuevo_archivo.bat".
+7. `echo echo Ejecutando Excel... >> nuevo_archivo.bat`: Imprime el texto "Ejecutando Excel..." en la consola agregandolo al final del archivo "nuevo_archivo.bat".
+8. `echo start powerpnt >> nuevo_archivo.bat`: Agrega el comando "echo start powerpnt" el cual ejecuta Microsoft Power Point en una nueva ventana al final del archivo "nuevo_archivo.bat".
 
 En resumen, el código crea un nuevo directorio en el escritorio, crea un archivo de lote (batch file) en ese directorio, agrega una serie de comandos al archivo de lote para ejecutar el comando "systeminfo", "ipconfig" y abrir Microsoft Excel y Word, y luego ejecuta el archivo de lote. También agrega una línea adicional al archivo de lote que imprimirá "Hola Mundo" cuando se ejecute nuevamente.
 </p>

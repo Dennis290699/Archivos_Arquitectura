@@ -24,6 +24,64 @@ MINIX es un sistema operativo basado en Unix, por lo que muchos de los comandos 
 
 Estos son solo algunos de los comandos disponibles en MINIX. Existen muchos otros comandos que ofrecen diversas funcionalidades y permiten administrar y trabajar con el sistema operativo. Puedes consultar la documentación oficial de MINIX para obtener más información sobre los comandos y su uso específico en MINIX.
 
+## Editores de MINIX3
+Estos son algunos de los editores mas conocidos en minix
+
+1. ed:
+   - Es un editor de texto simple y liviano.
+   - Es más adecuado para usuarios experimentados y puede resultar menos intuitivo para usuarios nuevos debido a su interfaz basada en comandos.
+
+2. vi:
+   - Es un editor de texto de pantalla completa.
+   - Tiene dos modos principales: el modo de comandos y el modo de edición.
+   - Tiene una curva de aprendizaje pronunciada, pero una vez que se domina, es muy potente y eficiente.
+
+3. emacs:
+   - Conocido por su amplia gama de funciones y personalizaciones.
+   - Es un editor de texto de pantalla completa con una interfaz más amigable para el usuario.
+   - Tiene una gran cantidad de comandos y atajos de teclado para realizar diferentes tareas.
+
+4. nano:
+   - Es un editor de texto más sencillo y fácil de usar en comparación con vi o emacs.
+   - Ofrece una interfaz intuitiva y soporta resaltado de sintaxis.
+   - Es ideal para usuarios que buscan una experiencia de edición de texto más amigable y no requieren una gran cantidad de funciones avanzadas.
+
+Cada editor tiene sus propias características y se adapta a diferentes necesidades y preferencias de los usuarios. Puedes elegir el que mejor se ajuste a tus requerimientos y nivel de experiencia en Minix3.
+
+## Pasos básicos para insertar texto en los editores
+
+1. ed:
+   - Abre una terminal en Minix3.
+   - Escribe `ed` en la línea de comandos y presiona Enter.
+   - Para insertar texto, usa el comando `a` para entrar en modo de inserción.
+   - Escribe el texto que deseas insertar y presiona Enter.
+   - Para finalizar la inserción y guardar los cambios, escribe `.` en una línea vacía y presiona Enter.
+   - Para salir del editor, escribe `q` y presiona Enter.
+
+2. vi:
+   - Abre una terminal en Minix3.
+   - Escribe `vi nombre_archivo` en la línea de comandos y presiona Enter. Reemplaza "nombre_archivo" con el nombre del archivo en el que deseas insertar el texto o crea un nuevo archivo.
+   - Para entrar en modo de inserción, presiona la tecla `i`.
+   - Escribe el texto que deseas insertar.
+   - Para finalizar la inserción y guardar los cambios, presiona la tecla `Esc` para salir del modo de inserción y luego escribe `:wq` y presiona Enter.
+   - Para salir del editor sin guardar cambios, escribe `:q!` y presiona Enter.
+
+3. emacs:
+   - Abre una terminal en Minix3.
+   - Escribe `emacs nombre_archivo` en la línea de comandos y presiona Enter. Reemplaza "nombre_archivo" con el nombre del archivo en el que deseas insertar el texto o crea un nuevo archivo.
+   - Usa los comandos y atajos de teclado de emacs para moverte al lugar deseado y escribir el texto.
+   - Para guardar los cambios, presiona `Ctrl + x`, seguido de `Ctrl + s`.
+   - Para salir del editor, presiona `Ctrl + x`, seguido de `Ctrl + c`.
+
+4. nano:
+   - Abre una terminal en Minix3.
+   - Escribe `nano nombre_archivo` en la línea de comandos y presiona Enter. Reemplaza "nombre_archivo" con el nombre del archivo en el que deseas insertar el texto o crea un nuevo archivo.
+   - Usa las teclas de flecha para moverte al lugar deseado y escribe el texto.
+   - Para guardar los cambios, presiona `Ctrl + o`.
+   - Para salir del editor, presiona `Ctrl + x`.
+
+Estos son los pasos básicos para insertar texto en cada uno de los editores mencionados. Recuerda que cada editor tiene su propia sintaxis y comandos específicos, por lo que te recomendaría consultar la documentación o buscar tutoriales específicos para aprovechar al máximo cada editor de texto en Minix3.
+
 ## Errores con el editor Vi en MINIX3
 El siguiente boque se detallara como resolver el error en el caso de no encontrar la ruta del editor Vi. Tomar en cuenta que esto se llevara a acabo Post-Instalacion  dentro de VirtualBox. Tomado desde la guia oficial <a href="https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages">Click Aqui</a>.
 

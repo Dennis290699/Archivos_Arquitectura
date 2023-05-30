@@ -24,7 +24,54 @@ MINIX es un sistema operativo basado en Unix, por lo que muchos de los comandos 
 
 Estos son solo algunos de los comandos disponibles en MINIX. Existen muchos otros comandos que ofrecen diversas funcionalidades y permiten administrar y trabajar con el sistema operativo. Puedes consultar la documentación oficial de MINIX para obtener más información sobre los comandos y su uso específico en MINIX.
 
-## Crear directorio y archivos en MINIX3
+## Errores con el editor Vi en MINIX3
+El siguiente boque se detallara como resolver el error en el caso de no encontrar la ruta del editor Vi. Tomar en cuenta que esto se llevara a acabo Post-Instalacion  dentro de VirtualBox. Tomado desde la guia oficial <a href="https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages">Click Aqui</a>.
+
+## Instalación de paquetes binarios
+
+### Pkgin
+
+Pkgin es el administrador de paquetes binarios para MINIX 3. Esta página describe cómo usarlo.
+
+### Usando Pkgin
+
+1. Actualización de Pkgin
+Este paso se puede volver a ejecutar para actualizar la lista de paquetes.
+
+   ```
+   pkgin update
+   ```
+   Este paso se puede volver a ejecutar para actualizar la lista de paquetes.
+
+2. Si desea instalar un paquete, puede ejecutar:
+
+   ```
+   pkgin install git-base
+   ```
+
+   ```
+   pkgin install binutils
+   ```
+
+   ```
+   pkgin install clang
+   ```
+3. Más de uno a la vez:
+ 
+   ```
+   pkgin in perl python27
+   ```
+
+4. Además, hay una manera de instalar todo:
+
+   ```
+   pkgin_all
+   ```
+   NOTA: Asegúrese de tener suficiente espacio libre si instala todos los paquetes. Probablemente necesitará al menos 25 GB. Pkgin estimará el espacio necesario cuando te pida confirmación.
+
+En caso de persistir los errores consultar la guia de usuario ofiicial <a href="https://wiki.minix3.org/doku.php?id=usersguide:start">Click Aqui</a>.
+
+## Ejemplo practico en MINIX3
 
 1. Crear el directorio "DennisTrujillo":
 

@@ -1,0 +1,37 @@
+# mkdir DennisTrujillo
+
+# cd DennisTrujillo
+
+# pwd
+
+# ls
+
+# touch Archivo1.txt
+
+# ls
+
+# touch Archivo2.txt
+
+# ls
+
+# vi Archivo1.txt
+
+i
+
+Estoy dentro del Archivo1
+
+:wq
+
+# ifconfig > Archivo3.txt
+
+# pwd
+
+# ls
+
+# rm Archivo2.txt
+
+# ls
+
+# mv Archivo3.txt Archivo2.txt
+
+# ls

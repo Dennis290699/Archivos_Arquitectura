@@ -170,3 +170,45 @@ En caso de persistir los errores consultar la guia de usuario ofiicial <a href="
     ```
     ls
     ```
+
+## Resultados del ejemplo practico en MINIX3
+
+Al finalizar el proceso descrito, los resultados que obtendrás serán los siguientes:
+
+1. Al ejecutar el comando `ls` después de crear el directorio "DennisTrujillo", deberías ver lo siguiente:
+
+   ```
+   Archivo1.txt  Archivo2.txt
+   ```
+
+2. Después de abrir y editar el archivo "Archivo1.txt" con Vi, el contenido del archivo será:
+
+   ```
+   Estoy dentro del Archivo1
+   ```
+
+3. Al ejecutar el comando `ls` después de crear el archivo "Archivo2.txt", deberías ver lo siguiente:
+
+   ```
+   Archivo1.txt  Archivo2.txt
+   ```
+
+4. Al utilizar el comando `ifconfig > Archivo3.txt`, se creará un archivo llamado "Archivo3.txt" que contiene la información de la red.
+
+5. Después de ejecutar el comando `ls`, verás lo siguiente:
+
+   ```
+   Archivo1.txt  Archivo2.txt  Archivo3.txt
+   ```
+
+6. Al eliminar el archivo "Archivo2.txt" con el comando `rm Archivo2.txt`, ya no estará presente en la lista de archivos al ejecutar `ls`.
+
+7. Luego de usar el comando `mv Archivo3.txt Archivo2.txt`, el archivo "Archivo3.txt" se renombrará a "Archivo2.txt".
+
+8. Al ejecutar `ls` nuevamente, verás lo siguiente:
+
+   ```
+   Archivo1.txt  Archivo2.txt
+   ```
+
+En resumen, al finalizar el proceso, tendrás el directorio "DennisTrujillo" con el archivo "Archivo1.txt" que contiene el texto "Estoy dentro del Archivo1", y el archivo "Archivo2.txt" que contiene la información de la red.

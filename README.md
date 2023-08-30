@@ -4,7 +4,7 @@
 
 ## Cuestioario
 
-Puedes descargar el cuestionario aqui: [Descargar Cuestionario]([https://data-insights-gamma.vercel.app/](https://uceedu-my.sharepoint.com/:b:/g/personal/datrujillov_uce_edu_ec/EStdaTTHSbdClOPdhs7TaGgBjZRnuUWJB3iZL5AOoDWF-A?e=Lv1cS9)).
+Puedes descargar el cuestionario aqui: [Descargar Cuestionario](https://uceedu-my.sharepoint.com/:b:/g/personal/datrujillov_uce_edu_ec/EStdaTTHSbdClOPdhs7TaGgBjZRnuUWJB3iZL5AOoDWF-A?e=Lv1cS9).
 
 ## Novedades de actualizacion
 

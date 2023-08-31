@@ -4,7 +4,7 @@
 
 ## Cuestioario
 
-Puedes descargar el cuestionario aqui: [Descargar Cuestionario](https://uceedu-my.sharepoint.com/:b:/g/personal/datrujillov_uce_edu_ec/EStdaTTHSbdClOPdhs7TaGgBjZRnuUWJB3iZL5AOoDWF-A?e=Lv1cS9).
+Puedes descargar el cuestionario aqui: [Descargar Cuestionario](https://uceedu-my.sharepoint.com/:b:/g/personal/datrujillov_uce_edu_ec/EYNqcIHyw31FqQS9PxZmoA0BDw-uYgWQHYy_KUf8qcblOQ?e=fz6mrW).
 
 ## Novedades de actualizacion
 
